@@ -1,0 +1,79 @@
+html
+{
+    background-color: #808B9B;
+}
+.card, .button
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin-bottom: 1vh;
+
+    width: 95vw;
+    max-width: 450px;
+
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    overflow-y: auto;
+}
+
+.card, .buttons-container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    width: 90%;
+}
+
+.card
+{
+    height: 40vh;
+    background-color: #AFC7E9;
+    
+    color: rgba(27, 48, 78,1);
+}
+.hidden
+{
+    color: rgba(27, 48, 78, 0);
+}
+
+.buttons-container
+{
+    height: 15vh;
+    max-width: 450px;
+}
+
+.button
+{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+
+    text-align: center;
+
+    color: #82653C;
+    background-color: #E9D1AF;
+}
+.button h2
+{
+    transform: translate(0%, 60%);
+}
+.button:hover
+{
+    background-color: #d4c5be;
+}
+
+.question-counter
+{
+    position: absolute;
+    top: 36vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'ABeeZee', sans-serif;
+}
